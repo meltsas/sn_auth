@@ -1,0 +1,25 @@
+body {
+    padding-top: 70px;
+}
+
+.hi-icon:hover {
+    /*background: rgb(94, 211, 255);*/
+    /*animation: spinAround 1s ease-in infinite;*/
+    animation: spinAround .6s linear;
+
+}
+
+@keyframes spinAround {
+
+    from {
+        /*transform: rotate(0deg);*/
+        /*transform:translate(0px, 0px);*/
+        transform: rotateY(0deg);
+
+    }
+    to {
+        /*transform: rotate(360deg);*/
+        /*transform:translate(5px, 5px);*/
+        transform: rotateY(360deg);
+    }
+}
